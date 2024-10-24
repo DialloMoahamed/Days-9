@@ -66,3 +66,8 @@ console.log(countriesLength);
 // reponse numero 8
 const numbersCarré = num.map((carré) => carré * carré)
 console.log(numbersCarré);
+
+
+// reponse numero 9
+const nameToUpperCase = names.map((majuscule) => majuscule.toUpperCase())
+console.log(nameToUpperCase);
