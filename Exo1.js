@@ -94,3 +94,8 @@ console.log(countriesContentLand);
 // reponse numero 12
 const countriesHaveSixCharacter = countries.filter((six) => six.length === 6)
 console.log(countriesHaveSixCharacter);
+
+
+// reponse numero 13
+const countriesHaveSixCharacterAndMore = countries.filter((six) => six.length >= 6)
+console.log(countriesHaveSixCharacterAndMore);
