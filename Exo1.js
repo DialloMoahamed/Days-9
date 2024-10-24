@@ -160,3 +160,8 @@ console.log(test2);
 // reponse numero 23
 const sixLettres = countries.find((sixe) => sixe.length === 6)
 console.log(sixLettres);
+
+
+// reponse numero 24
+const sixLettresUnique = countries.findIndex((sixe) => sixe.length === 6)
+console.log(sixLettresUnique);
