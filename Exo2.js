@@ -11,3 +11,8 @@ const prixTotalDesProduitsMap = products.map((prix) => prix.price)
 const prixTotalDesProduitsfilter = prixTotalDesProduitsMap.filter((pric) =>  pric !== '' && pric !== ' ')
 const prixTotalDesProduitsReduce = prixTotalDesProduitsfilter.reduce((sum, som) => sum + som)
 console.log(prixTotalDesProduitsReduce);
+
+
+// Reponse numero 2
+const totalPrice = products.reduce((sum, product) => sum + product.price, 0);
+console.log(totalPrice);
