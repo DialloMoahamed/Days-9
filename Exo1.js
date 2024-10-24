@@ -12,3 +12,27 @@ console.log(numberSup);
 let initiale = 0;
 const sumWithInitiale = numbers.reduce((acc, cur) => acc + cur, initiale)
 console.log(sumWithInitiale); 
+
+
+// reponse numero 2
+// ----- forEach ----- //
+const sumArray = arr => {
+    let sum = 0
+    const callback = function(element) {
+        sum += element
+    }
+    arr.forEach(callback)
+    return sum
+}
+console.log(sumArray(numbers));
+// ----- map ----- //
+const contries = ['Albania','Bolivia','Canada','Denmark','Ethiopia']
+const nameFirstthreeLetter = contries.map((con) => con.toUpperCase().slice(0, 3))
+console.log(nameFirstthreeLetter);
+// ----- filter ----- //
+const filtring = contries.filter((fil) => fil.includes('ia'))
+console.log(filtring);
+// ----- reduce ----- //
+const table = ['Mohamed ', 'Attahir']
+const sumWithName = table.reduce((nam, name) => nam + name)
+console.log(sumWithName);
