@@ -130,11 +130,11 @@ console.log(sumofCountries + " are north European countries");
 
 
 // reponse numero 19
-// La méthode find() renvoie la valeur du premier élément trouvé dans le tableau qui respecte la condition donnée par la fonction de test passée en argument. Sinon, la valeur undefined est renvoyée.
-const found = num.find((numero) => numero > 5)
-console.log(found);
-// La méthode findIndex() renvoie l'index du premier élément du tableau qui satisfait une condition donnée par une fonction. Si la fonction renvoie faux pour tous les éléments du tableau, le résultat vaut -1.
-const founde = num.findIndex((numero) => numero > 5)
+// La méthode some() teste si au moins un élément du tableau passe le test implémenté par la fonction fournie. Elle renvoie un booléen indiquant le résultat du test.
+const found = ((numero) => numero > 5)
+console.log(num.some(found));
+// La méthode every() permet de tester si tous les éléments d'un tableau vérifient une condition donnée par une fonction en argument. Cette méthode renvoie un booléen pour le résultat du test.
+const founde = num.every((numero) => numero > 5)
 console.log(founde);
 
 
@@ -146,3 +146,12 @@ console.log(names.some(namesLength));
 // reponse numero 21
 const isAllCountriesContainLand = countries.every((country) => country.includes("land"));
 console.log(isAllCountriesContainLand); 
+
+
+// reponse numero 22
+// La méthode find() renvoie la valeur du premier élément trouvé dans le tableau qui respecte la condition donnée par la fonction de test passée en argument. Sinon, la valeur undefined est renvoyée.
+const test = num.find((element) => element > 2);
+console.log(test);
+// La méthode findIndex() renvoie l'index du premier élément du tableau qui satisfait une condition donnée par une fonction. Si la fonction renvoie faux pour tous les éléments du tableau, le résultat vaut -1.
+const test2 = num.findIndex((element) => element > 10);
+console.log(test2);
