@@ -104,3 +104,8 @@ console.log(countriesHaveSixCharacterAndMore);
 // reponse numero 14
 const countryStartWithE = countries.filter((start) => start.startsWith('E'))
 console.log(countryStartWithE);
+
+
+// reponse numero 15
+const pricesWithValues = products.filter((sixe) => sixe.price !== '' && sixe.price !== ' ')
+console.log(pricesWithValues);
