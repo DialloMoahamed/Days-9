@@ -170,3 +170,8 @@ console.log(sixLettresUnique);
 // reponse numero 25
 const positionDeLaNorvège = countries.findIndex((norv) => norv.includes('Norvège'))
 console.log(positionDeLaNorvège);
+
+
+// reponse numero 26
+const positionDeLaRussie = countries.findIndex((norv) => norv.includes('Russie'))
+console.log(positionDeLaRussie);
