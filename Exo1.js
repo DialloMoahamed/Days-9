@@ -165,3 +165,8 @@ console.log(sixLettres);
 // reponse numero 24
 const sixLettresUnique = countries.findIndex((sixe) => sixe.length === 6)
 console.log(sixLettresUnique);
+
+
+// reponse numero 25
+const positionDeLaNorvège = countries.findIndex((norv) => norv.includes('Norvège'))
+console.log(positionDeLaNorvège);
