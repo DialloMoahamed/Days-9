@@ -109,3 +109,11 @@ console.log(countryStartWithE);
 // reponse numero 15
 const pricesWithValues = products.filter((sixe) => sixe.price !== '' && sixe.price !== ' ')
 console.log(pricesWithValues);
+
+
+// reponse numero 16
+function getStringLists(arr) {
+   const StringLists = arr.filter((element) => typeof element === 'string')
+    return StringLists
+}
+console.log(getStringLists([1, 'Denmark',  3, 'Norway',  2, 'IceLand', 4,]));
