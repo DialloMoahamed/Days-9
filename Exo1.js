@@ -84,3 +84,8 @@ const products = [
   ]
 const correspondingPrices = products.map((cor) => cor.price)
 console.log(correspondingPrices);
+
+
+// reponse numero 11
+const countriesContentLand = countries.filter((contient) => contient.includes("land"))
+console.log(countriesContentLand);
