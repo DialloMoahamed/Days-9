@@ -46,3 +46,8 @@ countries.forEach(coun => console.log(coun));
 // reponse numero 4
 const names = ['Asabeneh', 'Mathias', 'Elias', 'Brook']
 names.forEach(nom => console.log(nom));
+
+
+// reponse numero 5
+const num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+num.forEach(chiffres => console.log(chiffres))
