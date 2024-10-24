@@ -122,3 +122,8 @@ console.log(getStringLists([1, 'Denmark',  3, 'Norway',  2, 'IceLand', 4,]));
 // reponse numero 17
 const sumofElement = numbers.reduce((nam, name) => nam + name)
 console.log(sumofElement);
+
+
+// reponse numero 18
+const sumofCountries = countries.reduce((nam, name) =>  nam + "," + name )
+console.log(sumofCountries + " are north European countries");
