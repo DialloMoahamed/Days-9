@@ -36,3 +36,8 @@ console.log(filtring);
 const table = ['Mohamed ', 'Attahir']
 const sumWithName = table.reduce((nam, name) => nam + name)
 console.log(sumWithName);
+
+
+// reponse numero 3
+const countries = ['Finland', 'Sweden', 'Denmark', 'Norway', 'IceLand']
+countries.forEach(coun => console.log(coun));
