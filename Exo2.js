@@ -16,3 +16,12 @@ console.log(prixTotalDesProduitsReduce);
 // Reponse numero 2
 const totalPrice = products.reduce((sum, product) => sum + product.price, 0);
 console.log(totalPrice);
+
+
+// Reponse numero 3
+const countries = ['Finland', 'Sweden', 'Denmark', 'Norway', 'IceLand']
+function categoryizeCountries() {
+    const countriesIncludesLand = countries.filter((categorie) => categorie.includes('land') || categorie.includes('Land'))
+    console.log(countriesIncludesLand);
+}
+categoryizeCountries()
