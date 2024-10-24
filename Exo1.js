@@ -61,3 +61,8 @@ console.log(countriesTouppercase);
 // reponse numero 7
 const countriesLength = countries.map((longueur) => longueur.length)
 console.log(countriesLength);
+
+
+// reponse numero 8
+const numbersCarré = num.map((carré) => carré * carré)
+console.log(numbersCarré);
