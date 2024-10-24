@@ -141,3 +141,8 @@ console.log(founde);
 // reponse numero 20
 const  namesLength = ((nomer) => nomer.length > 7)
 console.log(names.some(namesLength));
+
+
+// reponse numero 21
+const isAllCountriesContainLand = countries.every((country) => country.includes("land"));
+console.log(isAllCountriesContainLand); 
