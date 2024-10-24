@@ -117,3 +117,8 @@ function getStringLists(arr) {
     return StringLists
 }
 console.log(getStringLists([1, 'Denmark',  3, 'Norway',  2, 'IceLand', 4,]));
+
+
+// reponse numero 17
+const sumofElement = numbers.reduce((nam, name) => nam + name)
+console.log(sumofElement);
