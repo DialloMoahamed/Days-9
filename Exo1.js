@@ -89,3 +89,8 @@ console.log(correspondingPrices);
 // reponse numero 11
 const countriesContentLand = countries.filter((contient) => contient.includes("land"))
 console.log(countriesContentLand);
+
+
+// reponse numero 12
+const countriesHaveSixCharacter = countries.filter((six) => six.length === 6)
+console.log(countriesHaveSixCharacter);
