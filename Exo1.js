@@ -99,3 +99,8 @@ console.log(countriesHaveSixCharacter);
 // reponse numero 13
 const countriesHaveSixCharacterAndMore = countries.filter((six) => six.length >= 6)
 console.log(countriesHaveSixCharacterAndMore);
+
+
+// reponse numero 14
+const countryStartWithE = countries.filter((start) => start.startsWith('E'))
+console.log(countryStartWithE);
