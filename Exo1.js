@@ -56,3 +56,8 @@ num.forEach(chiffres => console.log(chiffres))
 // reponse numero 6
 const countriesTouppercase = countries.map((maj) => maj.toUpperCase())
 console.log(countriesTouppercase);
+
+
+// reponse numero 7
+const countriesLength = countries.map((longueur) => longueur.length)
+console.log(countriesLength);
