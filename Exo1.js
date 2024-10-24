@@ -127,3 +127,12 @@ console.log(sumofElement);
 // reponse numero 18
 const sumofCountries = countries.reduce((nam, name) =>  nam + "," + name )
 console.log(sumofCountries + " are north European countries");
+
+
+// reponse numero 19
+// La méthode find() renvoie la valeur du premier élément trouvé dans le tableau qui respecte la condition donnée par la fonction de test passée en argument. Sinon, la valeur undefined est renvoyée.
+const found = num.find((numero) => numero > 5)
+console.log(found);
+// La méthode findIndex() renvoie l'index du premier élément du tableau qui satisfait une condition donnée par une fonction. Si la fonction renvoie faux pour tous les éléments du tableau, le résultat vaut -1.
+const founde = num.findIndex((numero) => numero > 5)
+console.log(founde);
