@@ -136,3 +136,8 @@ console.log(found);
 // La méthode findIndex() renvoie l'index du premier élément du tableau qui satisfait une condition donnée par une fonction. Si la fonction renvoie faux pour tous les éléments du tableau, le résultat vaut -1.
 const founde = num.findIndex((numero) => numero > 5)
 console.log(founde);
+
+
+// reponse numero 20
+const  namesLength = ((nomer) => nomer.length > 7)
+console.log(names.some(namesLength));
