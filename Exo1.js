@@ -41,3 +41,8 @@ console.log(sumWithName);
 // reponse numero 3
 const countries = ['Finland', 'Sweden', 'Denmark', 'Norway', 'IceLand']
 countries.forEach(coun => console.log(coun));
+
+
+// reponse numero 4
+const names = ['Asabeneh', 'Mathias', 'Elias', 'Brook']
+names.forEach(nom => console.log(nom));
