@@ -37,3 +37,10 @@ categoryizeCountries()
   }
   console.log(getFirstTenCountries());
   
+
+// Reponse numero 6
+function getLastTenCountries() {
+    let decouper = countriesOfWord.slice(-10);
+    return decouper 
+  }
+  console.log(getLastTenCountries());
