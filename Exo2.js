@@ -19,9 +19,21 @@ console.log(totalPrice);
 
 
 // Reponse numero 3
-const countries = ['Finland', 'Sweden', 'Denmark', 'Norway', 'IceLand']
+const pays = ['Finland', 'Sweden', 'Denmark', 'Norway', 'IceLand']
 function categoryizeCountries() {
-    const countriesIncludesLand = countries.filter((categorie) => categorie.includes('land') || categorie.includes('Land'))
+    const countriesIncludesLand = pays.filter((categorie) => categorie.includes('land') || categorie.includes('Land'))
     console.log(countriesIncludesLand);
 }
 categoryizeCountries()
+
+
+// Reponse numero 4
+
+
+// Reponse numero 5
+  function getFirstTenCountries() {
+    let decouper = countriesOfWord.slice(0, 10);
+    return decouper 
+  }
+  console.log(getFirstTenCountries());
+  
