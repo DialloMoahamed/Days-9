@@ -19,20 +19,25 @@ console.log(totalPrice);
 
 
 // Reponse numero 3
-const pays = ['Finland', 'Sweden', 'Denmark', 'Norway', 'IceLand']
-function categoryizeCountries() {
-    const countriesIncludesLand = pays.filter((categorie) => categorie.includes('land') || categorie.includes('Land'))
-    console.log(countriesIncludesLand);
+function categorizeCountries(pays, pattern) {
+    const countriesIncludesLand = pays.filter(categorie => categorie.name.endsWith(pattern));
+    return countriesIncludesLand;
 }
-categoryizeCountries()
+const countriesEndingWithLand = categorizeCountries(pays, 'land');
+const countriesEndingWithIa = categorizeCountries(pays, 'ia');
+const countriesEndingWithIsland = categorizeCountries(pays, 'island');
+const countriesEndingWithStan = categorizeCountries(pays, 'stan');
 
+console.log("Pays se terminant par 'land':", countriesEndingWithLand);
+console.log("Pays se terminant par 'ia':", countriesEndingWithIa);
+console.log("Pays se terminant par 'stan':", countriesEndingWithStan);
 
 // Reponse numero 4
 
 
 // Reponse numero 5
   function getFirstTenCountries() {
-    let decouper = countriesOfWord.slice(0, 10);
+    let decouper = pays.slice(0, 10);
     return decouper 
   }
   console.log(getFirstTenCountries());
@@ -40,7 +45,23 @@ categoryizeCountries()
 
 // Reponse numero 6
 function getLastTenCountries() {
-    let decouper = countriesOfWord.slice(-10);
+    let decouper = pays.slice(-10);
     return decouper 
   }
   console.log(getLastTenCountries());
+
+
+ // Reponse numero 7
+function whichLetterIsUse(firstletter) {
+    let init = 0
+    const letter = pays.filter((contry) => contry.name.startsWith(firstletter))
+    for (let i = 0; i < pays.length; i++) {
+        if (letter[i] > init) {
+            console.log(letter[i]); 
+        }
+        
+    }
+   
+}
+console.log(whichLetterIsUse());
+;
